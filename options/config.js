@@ -7,12 +7,12 @@ const optionsSQLite3 = {
 }
 
 const mongodb = {
-  conexStr: "mongodb+srv://User:2t17C0PDVc7dWuI2@cluster0.j9v3p2d.mongodb.net/test",
-  options: {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    serverSelectionTimeoutMS: 5000,
+  client: 'mysql',
+	connection: {
+		host: '127.0.0.1',
+		user: 'root',
+		password: '',
+		database: 'backend'
   },
 };
 
